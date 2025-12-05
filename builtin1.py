@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import csv
 
-VIDEO_PATH = "pekka.mp4"
-OUTPUT_CSV = "pekka_builtins.csv"
+VIDEO_PATH = "cp1/pekka.mp4"
+OUTPUT_CSV = "cp1/pekka_builtins.csv"
 
 LOWER = np.array([110, 50, 50])
 UPPER = np.array([150, 255, 255])

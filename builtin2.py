@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import csv
 
-VIDEO_PATH = "goblingang.mp4"
-OUTPUT_CSV = "goblin_gang_motion.csv"
+VIDEO_PATH = "cp1/goblingang.mp4"
+OUTPUT_CSV = "cp1/goblin_gang_motion.csv"
 
 # Background subtractor (NOT a pretrained model)
 bg = cv2.createBackgroundSubtractorMOG2(history=200, varThreshold=25, detectShadows=False)

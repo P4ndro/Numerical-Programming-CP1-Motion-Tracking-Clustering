@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import csv
 
-VIDEO_PATH = "pekka1.mp4"             
-OUTPUT_CSV = "pekka_tracking_scratch.csv"
+VIDEO_PATH = "cp1/pekka.mp4"             
+OUTPUT_CSV = "cp1/pekka_tracking_scratch.csv"
 
 # HSV color range for PEKKA (tweak if needed)
 LOWER_PEKKA = np.array([110, 50, 50])   # approx blue/purple
