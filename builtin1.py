@@ -66,11 +66,11 @@ while True:
 
             cv2.circle(frame, (int(cx), int(cy)), 8, (0,255,0), -1)
 
-    # ------ DISPLAY VIDEO ------
+    # ------ DISPLAY VIDEO AT CORRECT SPEED ------
     cv2.imshow("Tracking", frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(int(1000/fps)) & 0xFF == ord('q'):
         break
-    # ---------------------------
+    # ---------------------------------------------
 
     frame_id += 1
 
